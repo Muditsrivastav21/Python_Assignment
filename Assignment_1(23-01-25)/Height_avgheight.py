@@ -13,7 +13,7 @@ for i in range(0, count):
     total_height += height_list[i]
 
 average_height = float(total_height / count)
-print(f"The average height is: {average_height:.2f}")
+print(f"The average height is: {average_height:.4f}")
 
 taller_count = 0
 for height in height_list:

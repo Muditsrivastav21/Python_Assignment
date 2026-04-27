@@ -6,6 +6,6 @@ for i in range (0,n):
 print(book_list)
 count = 0
 for book in book_list:
-    if(len(book) >25):
+    if(len(book) >24):
       count+=1
 print("Toatl count of Books titles longer that 25 charaters:",count)
